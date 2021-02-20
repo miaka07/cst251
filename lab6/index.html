@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<meta charset="utf-8">
 		<title>Lab 6: More Complicated HTML</title>
 	</head>
@@ -21,6 +22,29 @@
 				You are looking at the results of my lab.
 			</p>
 			<br>
-			<a href="../index.html">CST251 Homepage</a>
+			<a href="../index.html">CST251 Homepage</a><br>
+			<br>
+			<div id=output">
+				<h1>Results</h1>
+				<form action="https://google.com/search"
+				method="GET">
+					<label>Name: <input name="q" type="text"></label>
+					<br>
+					<br>
+					<label>Password: <input name="pw" type="password"</label>
+					<br><br>
+					<label>Biography: <textarea name="essay"> </textarea> </label>
+					<br><br>
+					<label>Agree: <input name="agree" type="checkbox" </label>
+					<br><br>
+					<label>Gender:
+						<input name="gender" type="radio" value="dog">Dog</label>
+						<input name="gender" type="radio" value="cat">Cat</label>
+						<br>
+					<input type="Submit" value="I'm feeling lucky">
+
+
+
+
 	</body>
 </html>
