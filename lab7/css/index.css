@@ -1,14 +1,21 @@
 body {
     background-color: #cfbdffd1
 }
+
 img {
     float:right;
     border:10px solid #8886c2
     }
+
 h1, h2 {
     font-family: "Courier New", monospace;
 }
-div#text {
+
+div.text {
     padding: 50px
     border: solid: 10px #8691c2
+}
+
+p {
+  font-family: "Courier New", monospace;
 }
