@@ -7,6 +7,10 @@ img {
     border:10px solid #8886c2
     }
 
+img:hover {
+  transform: scale(1.1)
+}
+
 h1, h2 {
     font-family: "Courier New", monospace;
 }
