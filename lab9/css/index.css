@@ -1,0 +1,49 @@
+body {
+    background-color: #355C7D;
+    padding:20px;
+}
+
+div#image {
+    float:right;
+    height:auto;
+    }
+
+#content, img {
+  border:20px solid #2B4962;
+  border-style: inset;
+}
+
+img:hover {
+  transform: scale(1.1);
+  height:auto;
+}
+
+h1, h2 {
+    font-family: "Lexend", monospace;
+    color:#C06C84;
+}
+
+div.text {
+    padding: 20px;
+    color:white;
+    margin: 20px;
+    background-color: #2B4962;
+    width: 400px;
+}
+
+p {
+  font-family: "Lexend", monospace;
+  color:white;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a {
+  color:white;
+}
+
+div#content {
+  padding:25px;
+}
