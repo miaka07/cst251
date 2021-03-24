@@ -1,0 +1,37 @@
+body {
+    background-color: #355C7D;
+    padding:20px;
+}
+
+img {
+    float:right;
+    border:10px solid #C06C84;
+    height:auto;
+    }
+
+img:hover {
+  transform: scale(1.1)
+}
+
+h1, h2 {
+    font-family: "Courier New", monospace;
+    color:#C06C84;
+}
+
+div.text {
+    padding: 50px
+    border: solid: 10px #8691c2;
+}
+
+p {
+  font-family: "Courier New", monospace;
+  color:white;
+}
+
+span {
+  text-decoration: underline;
+}
+
+a {
+  color:white;
+}
