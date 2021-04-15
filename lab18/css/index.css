@@ -68,7 +68,7 @@ h2 {
   margin: 0px auto 0px auto;
   }
 
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:600px) {
   main, aside
   {width:100%;}
 }
